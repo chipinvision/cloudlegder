@@ -31,13 +31,13 @@ export function Bills() {
   return (
     <div className="space-y-6 pb-16">
       <div className="flex flex-wrap sm:flex-nowrap justify-between items-center gap-4">
-        <h1 className="text-2xl font-bold text-gray-800">Bills</h1>
+        <h1 className="text-2xl font-bold text-gray-800">Invoices</h1>
         <button
           onClick={() => setIsModalOpen(true)}
           className="bg-primary-600 text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-primary-700"
         >
           <Plus className="w-4 h-4" />
-          Generate Bill
+          Generate Invoice
         </button>
       </div>
 
