@@ -54,7 +54,7 @@ export function Bills() {
           <table className="min-w-full divide-y divide-gray-200">
             <thead className="bg-primary-50">
               <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Bill No</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Inv No</th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Customer</th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amount</th>
@@ -113,7 +113,7 @@ export function Bills() {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-lg w-full max-w-4xl max-h-[90vh] overflow-y-auto">
             <div className="p-4 border-b border-gray-200 flex justify-between items-center">
-              <h2 className="text-xl font-semibold">Bill Preview</h2>
+              <h2 className="text-xl font-semibold">Invoice Preview</h2>
               <button onClick={() => setPreviewBill(null)} className="text-gray-500 hover:text-gray-700">
                 <X className="w-5 h-5" />
               </button>
