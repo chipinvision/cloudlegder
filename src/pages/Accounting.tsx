@@ -64,7 +64,7 @@ export function Accounting() {
         </div>
       </div>
 
-      <div className="w-full max-w-4xl">
+      <div className="w-full max-w-md">
         <SearchBar
           value={searchQuery}
           onChange={setSearchQuery}
